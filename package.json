@@ -1,0 +1,53 @@
+{
+  "name": "apollo-feathers",
+  "description": "",
+  "version": "0.1.0",
+  "homepage": "",
+  "main": "src",
+  "keywords": [
+    "feathers"
+  ],
+  "author": {
+    "name": "Max Choi",
+    "email": "hanpama@gmail.com"
+  },
+  "contributors": [],
+  "bugs": {},
+  "directories": {
+    "lib": "src"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "yarn": ">= 0.18.0"
+  },
+  "scripts": {
+    "test": "npm run eslint && npm run mocha",
+    "eslint": "eslint src/. test/. --config .eslintrc.json",
+    "start": "node src/",
+    "mocha": "mocha test/ --recursive"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "compression": "^1.6.2",
+    "cors": "^2.8.3",
+    "eslint": "^3.19.0",
+    "feathers": "^2.1.1",
+    "feathers-configuration": "^0.4.1",
+    "feathers-errors": "^2.6.3",
+    "feathers-hooks": "^1.8.1",
+    "feathers-hooks-common": "^3.0.0",
+    "feathers-nedb": "^2.6.2",
+    "feathers-rest": "^1.7.2",
+    "graphql-server-express": "^0.7.1",
+    "graphql-subscriptions": "^0.3.1",
+    "graphql-tools": "^0.11.0",
+    "helmet": "^3.5.0",
+    "mocha": "^3.2.0",
+    "nedb": "^1.8.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0",
+    "serve-favicon": "^2.4.2",
+    "subscriptions-transport-ws": "^0.5.5",
+    "winston": "^2.3.1"
+  }
+}
